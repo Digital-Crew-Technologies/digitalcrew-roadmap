@@ -40,7 +40,7 @@ Once a feature ships, it gets the `shipped` label, the issue is closed, and a li
 | Label | Description |
 |---|---|
 | `area: agents` | Core digital worker capabilities (Sophie, Claire, Max, Camille, Kate, Andre) |
-| area: mcp | MCP protocol support and tool integration |
+| `area: mcp` | MCP protocol support and tool integration |
 | `area: platform` | Infrastructure, reliability, and core system improvements |
 | `area: integrations` | Third-party tool connections (CRMs, calendars, communication tools, etc.) |
 | `area: security` | Data protection, access controls, and compliance |
