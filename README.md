@@ -1,3 +1,4 @@
+<!-- last-reviewed: 2026-05-02 -->
 # DigitalCrew Public Roadmap
 
 > ❇️ View the [official DigitalCrew public product roadmap](https://github.com/orgs/Digital-Crew-Technologies/projects/2)
@@ -7,6 +8,8 @@ Welcome to the **DigitalCrew public roadmap** — your window into what we're bu
 Our roadmap is where you can track upcoming features across our digital workers (Max, Sophie, Claire, and Kate), platform infrastructure, and integrations. We ship fast, and this is how you stay in the loop.
 
 Have feedback or a feature request? Share it via [DigitalCrew Discussions](https://github.com/orgs/Digital-Crew-Technologies/discussions) — we read everything.
+
+> This public roadmap is a derivative of an internal knowledge base. The roadmap surfaces *what* we're shipping; the *why* and the *how* are debated in [Discussions](https://github.com/orgs/Digital-Crew-Technologies/discussions) and in RFC threads.
 
 ---
 
@@ -40,6 +43,8 @@ Once a feature ships, it gets the `shipped` label, the issue is closed, and a li
 | Label | Description |
 |---|---|
 | `area: agents` | Core digital worker capabilities (Sophie, Claire, Max, Camille, Kate, Andre) |
+| `area: workspace` | Action Room & collaborative workspaces |
+| `area: runtime` | Agent execution runtime & substrate |
 | `area: mcp` | MCP protocol support and tool integration |
 | `area: platform` | Infrastructure, reliability, and core system improvements |
 | `area: integrations` | Third-party tool connections (CRMs, calendars, communication tools, etc.) |
@@ -61,6 +66,11 @@ Our AI agents each have their own feature track. Use these labels to filter road
 | `worker: sophie` | Sophie | HR Business Partner |
 | `worker: claire` | Claire | Market Mastermind |
 | `worker: kate` | Kate | Marketing Maestro |
+| `worker: andre` | André | Operations Manager |
+| `worker: camille` | Camille | Customer Support |
+| `worker: louis` | Louis | Finance |
+| `worker: marie` | Marie | Legal |
+| `worker: jeanne` | Jeanne | QA |
 
 ---
 
@@ -71,6 +81,20 @@ The roadmap board is organized by quarter so you can see what's on the near-term
 There is also an **Exploring** column for items that have no committed timeline yet — these are early ideas we're validating with the community.
 
 > **Note:** Items further out on the timeline are more subject to change. We update the board regularly as priorities evolve.
+
+---
+
+## 🧭 How to read the board
+
+The project board has these columns:
+
+- **Exploratory** — early ideas, no committed timeline. May or may not happen.
+- **Now** — currently being designed or built (this quarter).
+- **Next** — committed for the following quarter.
+- **Later** — beyond the next two quarters; subject to change.
+- **Shipped** — delivered. Issues closed and locked.
+
+A scannable rule of thumb: **the further right an item sits, the less change you should expect.** Items in *Later* or *Exploratory* may move, merge, or drop entirely.
 
 ---
 
@@ -86,9 +110,11 @@ Issues in this repo are **read-only** — they represent roadmap items, not a bu
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Forward-looking statement
 
-Any statement in this repository that is not purely historical is considered a forward-looking statement. The roadmap reflects our current intentions based on available information and is subject to change at any time. It does not constitute a commitment, guarantee, or promise to deliver any specific feature or functionality by any particular date. DigitalCrew assumes no obligation to update forward-looking statements. Do not make purchasing decisions based solely on this roadmap.
+Items in this repository reflect our current intentions, not commitments. Phases and timing may change as we learn. Nothing here constitutes a contract, a financial promise, or a guarantee of feature delivery. Building Crew OS is a public, iterative process — and so is this board.
+
+DigitalCrew assumes no obligation to update forward-looking statements. Do not make purchasing decisions based solely on this roadmap.
 
 ---
 
